@@ -540,7 +540,7 @@
 		//background_color: 'black',
 		overlay_text_color: 'white',
 		caption_text_color: 'white',
-		border: '0px solid black',
+		//border: '0px solid black',
 		nav_theme: 'light',
 		easing: 'swing',
 		filmstrip_position: 'bottom',
