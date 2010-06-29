@@ -2,9 +2,10 @@
 
 			//where to buy
 
-             var wtbt = 0;
-             var s = 0;
-             var stext = '';
+ //            var wtbt = 0;
+ //           var s = 0;
+             //var stext = '';
+					prev_state_id=-1;
 		    	$("area").click(function(){
 
 		    	    if($("#wrstate").css("height") == '0px')
@@ -14,17 +15,26 @@
 		    	    }
 
 		    		var id = $(this).attr("href");
-
+				if (prev_state_id==id)
+					return false;
+				if (prev_state_id != -1) {
+								//$("#textstate-"+prev_state_id).slideUp(800,function(){$(this).height(0);$(this).css('top',$(this).offset().top+100)});
+								$("#textstate-"+prev_state_id).slideUp(800,function(){var q=$(this);q.css('height',0);q.css('top',null);});
+				}
+								$(document).find("#textstate-"+id).animate({height : "+=110px", top: "-=100px"}, 800);
+			prev_state_id=id;
+/*
 					  	if(wtbt == 0)
 					  	{
                             //stext = $("div #states_"+id).text;
 							//$("#textstate-0").html($("#state_"+id).html);
                             //alert(stext);
-			                $("#textstate-0").animate({height : "+=90px", top: "-=90px"}, 1000);
+			                $("#textstate-0").animate({height : "+=110px", top: "-=100px"}, 1000);
 			                wtbt++;
                         }
                         else
                         {
+alert(2+' '+wtbt+' s='+s+' id='+id)
 
                                 //$("#state").append("<div id='textstate-"+wtbt+"'></div>");
                                 //stext = $("#states_"+id).text;
@@ -32,10 +42,10 @@
 								//alert(stext);
                                 s = wtbt - 1;
 								$("#textstate-"+s).slideUp(1000);
-								$(document).find("#textstate-"+wtbt).animate({height : "+=90px", top: "-=90px"}, 1000);
+								$(document).find("#textstate-"+wtbt).animate({height : "+=110px", top: "-=100px"}, 1000);
 								wtbt++;
                         }
-
+*/
 	                return false;
 		   		 });
 

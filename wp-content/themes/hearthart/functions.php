@@ -229,7 +229,7 @@ function wheretobuy_states_info()
  	$query = mysql_query("select ID, post_content from wp_posts where ID in(96, 55, 78, 43, 59, 138, 134, 114, 100, 45, 84, 90, 74, 66, 92, 80, 102, 132, 142, 88, 72, 86, 76, 49, 64, 47, 146, 136, 57, 104, 110, 60, 98, 68, 41, 106, 140, 112, 62, 94, 70, 53, 144, 108, 39, 130, 82, 51)");
  	$count = 0;
  	while($row = mysql_fetch_object($query))
- 	{ 		echo "<div id='textstate-".$count."'>".$row->post_content."</div>";
+ 	{ 		echo "<div id='textstate-".$row->ID."'>".$row->post_content."</div>";
         $count++;
  	}
 

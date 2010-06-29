@@ -730,6 +730,9 @@ font-family:Trebuchet MS;
 font-size:12px;
 color:#2a1e06;
 }
+#state div p a{
+color:#b4782b;
+}
 #state div span {
 font-family:Trebuchet MS;
 font-weight:bold;
