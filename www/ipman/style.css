@@ -1,0 +1,257 @@
+* {
+margin:0;
+padding:0;
+}
+body {
+background:#000000;
+}
+#wr {
+min-width:930px;
+width:expression(document.body.offsetWidth);
+background-image:url(images/bg.jpg);
+background-repeat:repeat-x;
+}
+#wrapper {
+margin-left:50%;
+}
+.index {
+background-image:url(images/pic.jpg);
+background-position:-30px 0;
+background-repeat:no-repeat;
+}
+#ball {
+position:absolute;
+margin-left:-630px;
+width:172px;
+height:192px;
+background-image:url(images/ball.png);
+}
+.container {
+width:930px;
+top:0;
+margin-left:-465px;
+background-repeat:no-repeat;
+}
+#first {
+background-image:url(images/pic.jpg);
+background-position:435px 0;
+}
+#sixth {
+background-image:url(images/pic6.jpg);
+background-position:right top;
+}
+/*-----------------H E A D E R--------------------*/
+#header {
+position:relative;
+padding-top:25px;
+}
+#menu {
+position:relative;
+height:30px;
+left:70px;
+list-style:none;
+}
+#menu li {
+float:left;
+font-family:arial;
+margin-right:3px;
+margin-left:3px;
+}
+#menu li+li {
+color:#fff;
+list-style:disc inside;
+}
+#menu li a {
+color:#fff;
+font-family:arial;
+font-size:14px;
+text-decoration:none;
+}
+#menu li a:hover {
+color:#f5ca71;
+}
+#here {
+font-size:14px;
+color:#f5ca71;
+}
+#logo {
+position:relative;
+left:8px;
+background-image:url(images/logo.png);
+width:580px;
+height:236px;
+}
+#righttext {
+float:right;
+}
+#righttext  p {
+font-family:Trajan Pro;
+font-size:18px;
+font-weight:bold;
+color:#000;
+text-align:center;
+}
+#righttext  span {
+font-family:Trajan Pro;
+font-size:11px;
+font-weight:normal;
+}
+#righttext  #alltime {
+font-size:13px;
+}
+/*----------------C O N T E N T--------------------*/
+#content {
+margin-top:17px;
+}
+#trailer {
+position:relative;
+padding-left:370px;
+padding-top:100px;
+height:233px;
+width:395px;
+background-image:url(images/ipman.jpg);
+}
+#trailer p {
+color:#fff;
+font-family:Trajan Pro;
+font-size:20px;
+text-align:center;
+}
+#trailer p span {
+font-size:48px;
+}
+#bluetext {
+color:#aab4bd;
+margin-top:40px;
+font-family:Trajan Pro;
+font-size:17px;
+font-weight:bold;
+letter-spacing:8px;
+word-spacing:4px;
+}
+/*---------------F O O T E R------------------*/
+#footer {
+position:relative;
+padding-left:50%;
+height:310px;
+background:url(images/gray.gif) repeat-x 0 45px;
+}
+#newsletter {
+position:relative;
+top:45px;
+float:left;
+margin-left:-465px;
+padding-top:40px;
+height:209px;
+width:215px;
+}
+#newsletter p {
+font-family:arial;
+font-size:12px;
+font-weight:bold;
+color:#8b8b8b;
+}
+#mc-embedded-subscribe-form {
+padding-bottom:10px;
+padding-top:10px;
+}
+#mce-EMAIL {
+display:block;
+float:left;
+background-color:#58513f;
+color:#e1a757;
+border:0;
+width:160px;
+height:23px;
+}
+#mc-embedded-subscribe {
+display:block;
+float:left;
+}
+#gray2 {
+margin-left:-250px;
+height:230px;
+background:url(images/gray2.gif) repeat-x 0 45px;
+}
+#boxes {
+position:relative;
+top:18px;
+left:10px;
+float:left;
+margin-right:30px;
+width:285px;
+height:210px;
+background-image:url(images/boxes.png);
+}
+#sweepstakes {
+float:left;
+width:250px;
+}
+#sweepstakes h1 {
+font-family:arial;
+padding-top:50px;
+font-size:36px;
+font-weight:bold;
+color:#ababab;
+}
+#sweepstakes p {
+font-family:arial;
+font-size:12px;
+padding-top:4px;
+padding-bottom:6px;
+color:#ababab;
+}
+#sweepstakes a {
+color:#ababab;
+}
+/*-----------L O G O S---------------*/
+#logos {
+margin-left:-220px;
+clear:both;
+}
+#logos div {
+float:left;
+height:60px;
+}
+#logos p {
+font-family:arial;
+padding-top:10px;
+padding-left:70px;
+padding-bottom:10px;
+font-size:11px;
+color:#ddd;
+clear:both;
+}
+#mandarin {
+width:180px;
+background-image:url(images/logos.gif);
+background-position:0 0;
+}
+#wellgo {
+width:80px;
+background-image:url(images/logos.gif);
+background-position:-180px 0;
+}
+#restricted {
+width:180px;
+background-image:url(images/logos.gif);
+background-position:-260px 0;
+}
+#icons {
+margin-left:170px;
+width:60px;
+height:28px;
+}
+#f {
+width:28px;
+height:28px;
+float:left;
+background-image:url(images/f.gif);
+margin-right:4px;
+}
+#twitter {
+width:28px;
+height:28px;
+float:left;
+background-image:url(images/t.gif);
+}

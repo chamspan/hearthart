@@ -1,0 +1,83 @@
+div.product_grid_display{
+ margin-bottom: 20px;
+ float:left;
+ width: 100%;
+ text-align: left !important;
+}
+
+
+/* can change the width and height of the grid view elements here */
+div.product_grid_display div.product_grid_item{
+  margin-bottom: 20px;
+  float: left;
+  position: relative;
+  margin: 4px 8px 8px 0px;
+  height:auto !important;
+}
+
+div.grid_view_newline {
+ clear: both;
+}
+
+
+div.grid_product_info{
+ font-family:"Trebuchet MS",Arial,sans-serif;
+	/*  float: left; */
+	/*position: absolute;
+	top: 0px;*/
+ }
+
+div.grid_product_info div.product_text{
+ font-size: 8pt;
+ min-height: 25px;
+ padding: 7px 7px 7px 0px;
+}
+ 
+div.grid_product_info div.product_text span.oldprice{
+ color:#b5b5b5;}
+
+
+div.product_grid_display div.product_grid_item img{
+ border: none !important;
+/*  padding: 0px !important; */
+ margin-left: auto;
+ margin-right: auto;
+ }
+
+
+div.product_grid_display div.product_grid_item a.preview_link{
+ display: block;
+ font-size: 8pt;
+ }
+
+div.grid_more_info{
+ font-family:"Trebuchet MS",Arial,sans-serif;
+/*  height: 22px; */
+ padding-top: 4px;
+ padding-right: 7px;
+ }
+
+div.grid_more_info a{
+ text-decoration: none;
+ border-bottom: 0px;
+ }
+
+div.grid_more_info span{
+ font-size: 8pt;
+/*  float: left; */
+/*  margin-left: 33px; */
+ }
+
+div.grid_more_info p{
+ margin-bottom: 0px;
+ padding-bottom: 0px;
+ }
+ 
+ div.grid_more_info select{
+ margin-bottom: 0px;
+ }
+
+
+div.grid_more_info img{
+ float: right;
+ }

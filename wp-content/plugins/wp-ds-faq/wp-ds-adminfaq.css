@@ -1,0 +1,72 @@
+#name_faq{
+   width:  500px;
+}
+.dsfaq_curentbook{
+   border: 1px solid #777777;
+   width:  700px;
+   margin-top: 20px;
+}
+.dsfaq_name_faq_book{
+   background-color: #EFEFEF;
+   border-bottom: 1px solid #AAAAAA;
+   padding: 5px 5px 5px 5px;
+}
+.dsfaq_name_faq_book .dsfaq_title{
+   font-weight: bold;
+}
+.dsfaq_divshortcode{
+   padding: 3px 0 3px 0;
+   text-align: left;
+   border-bottom: 1px solid #AAAAAA;
+}
+.dsfaq_shortcode{
+   color: #333;
+   font-size: 0.8em;
+}
+.dsfaq_tools{
+   float: right;
+/*    margin-top: -16px; */
+}
+.dsfaq_name_faq_quest{
+   background-color: white;
+   border-bottom: 1px solid #AAAAAA;
+   padding: 5px 5px 5px 5px;
+}
+#faqbook a{
+   text-decoration: none;
+}
+#dsfaq_quest{
+   width:  680px;
+}
+#dsfaq_css{
+   width:  664px;
+}
+.dsfaq_name_faq_quest_add input, textarea{
+   width:  680px;
+}
+.dsfaq_name_faq_quest_add{
+   background-color: white;
+   padding: 10px 5px 10px 5px;
+}
+.dsfaq_curentbook p{
+   margin: 0px 0px 0px 0px;
+}
+.dsfaq_curentbook .dsfaq_drv{
+   text-align: right;
+   margin: 10px 20px 10px 10px;
+   height: 16px;
+}
+.dsfaq_drv{
+   text-align: right;
+   margin: 10px 20px 10px 10px;
+   height: 16px;
+}
+.dsfaq_idquest_edit{
+   border-top: 1px dotted #000000;
+   margin-top: 5px;
+}
+span.button{
+   line-height: 1.2em;
+   -webkit-border-radius: 10px;
+   padding: 4px 10px;
+}

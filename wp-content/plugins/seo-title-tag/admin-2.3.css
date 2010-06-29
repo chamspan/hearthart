@@ -1,0 +1,36 @@
+/* begin css tabs */
+
+ul#subsubmenu { /* general settings */
+    text-align: left; /* set to left, right or center */
+    margin: 1em 0 1em 0; /* set margins as desired */
+    border-bottom: 1px solid #0d324f; /* set border COLOR as desired */
+    list-style-type: none;
+    padding: 3px 10px 2px 10px; /* THIRD number must change with respect to padding-top (X) below */
+}
+
+ul#subsubmenu li { /* do not change */
+    display: inline;
+}
+
+ul#subsubmenu li a { /* settings for all tab links */
+    padding: 3px 4px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+    border: 1px solid #0d324f; /* set border COLOR as desired; usually matches border color specified in #subsubmenu */
+    background-color: #0d324f; /* set unselected tab background color as desired */
+    color: #ffffff; /* set unselected tab link color as desired */
+    margin-right: 0px; /* set additional spacing between tabs as desired */
+    text-decoration: none;
+    border-bottom: none;
+}
+
+ul#subsubmenu li.current a { /* settings for selected tab link */
+    background-color: #fff; /* set selected tab background color as desired */
+    border-bottom: 1px solid #fff;
+    color: #000000; /* set selected tab link color as desired */
+}
+
+ul#subsubmenu a:hover { /* settings for hover effect */
+    background: #83b4d8; /* set desired hover color */
+    color: #000000;
+}
+
+/* end css tabs */
