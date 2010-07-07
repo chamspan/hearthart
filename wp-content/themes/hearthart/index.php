@@ -6,7 +6,7 @@
 			 <div id="mainwindow">
 				 <img src="<? echo THEME_PATH; ?>images/pic1.gif" alt="" />
 				 <img src="<? echo THEME_PATH; ?>images/pic2.gif" alt="" />
-				 <img src="<? echo THEME_PATH; ?>images/pic3_03.jpg" alt="" />
+				 <img src="<? echo THEME_PATH; ?>images/pic3_03.gif" alt="" />
 			 </div>
 		 </div>
 		 <!-- / C O N T E N T -->
