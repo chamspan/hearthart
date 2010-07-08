@@ -753,9 +753,9 @@ height:323px;
 }
 #gallerypic {
 float:left;
-/*margin-right:60px;*/
 margin-bottom:60px;
-margin-left:60px;
+width:460px;
+text-align: center;
 }
 #gallerynav {
 position:absolute;
